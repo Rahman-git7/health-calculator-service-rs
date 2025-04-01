@@ -73,6 +73,15 @@ This project uses GitHub Actions to automate:
 * ☁️ Pushing the image to Azure Container Registry (ACR)
 * 🚀 Deploying the image to Azure App Service
 
+**The workflow is defined in**: `.github/workflows/ci-cd.yml`
+
+Secrets used:
+
+`AZURE_WEBAPP_PUBLISH_PROFILE` : for App Service deployment
+
+(optional) `AZURE_CREDENTIALS` – if pushing directly to ACR from CI
+
+
 
 ### 🚀 Tech Stack
 

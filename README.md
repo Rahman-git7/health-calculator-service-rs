@@ -59,10 +59,20 @@ curl -X POST https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.
 
 ### 🛠️ Local Development
 
-`make init`      # Install dependencies
-`make run`       # Run app locally (http://localhost:5000)
-`make test`      # Run unit tests
-`make build`     # Build Docker image
+* `make init`      # Install dependencies
+* `make run`       # Run app locally (http://localhost:5000)
+* `make test`      # Run unit tests
+* `make build`     # Build Docker image
+
+### 🔄 GitHub Actions CI/CD
+
+This project uses GitHub Actions to automate:
+
+* 🔍 Installing dependencies and running tests
+* 🐳 Building the Docker image
+* ☁️ Pushing the image to Azure Container Registry (ACR)
+* 🚀 Deploying the image to Azure App Service
+
 
 ### 🚀 Tech Stack
 

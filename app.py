@@ -3,6 +3,13 @@ from health_utils import calculate_bmi, calculate_bmr
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def index():
+    return '''
+    <h1>Welcome to the Health Calculator API 🧮</h1>
+    <p>Use <code>/bmi</code> and <code>/bmr</code> endpoints with POST requests to calculate BMI and BMR.</p>
+    '''
+
 @app.route('/bmi', methods=['POST'])
 def bmi():
     data = request.get_json()

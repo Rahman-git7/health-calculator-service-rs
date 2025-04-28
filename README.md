@@ -19,7 +19,7 @@ A simple Flask-based microservice to calculate:
 
 **Base URL:**  
 
-[App service](https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.azurewebsites.net)
+[UI App](https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.azurewebsites.net)
 
 
 `https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.azurewebsites.net`

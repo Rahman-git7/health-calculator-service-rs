@@ -13,6 +13,10 @@ A simple Flask-based microservice to calculate:
 ## 🌐 Live Demo
 
 **Base URL:**  
+
+[App service](https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.azurewebsites.net)
+
+
 `https://health-calculator-app-rs-ddcfa6fka3grc9du.francecentral-01.azurewebsites.net`
 
 ---

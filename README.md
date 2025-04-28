@@ -1,11 +1,8 @@
-# Health Calculator Microservice
+# 🧮 Health Calculator Microservice
 
 [![CI/CD](https://github.com/Rahman-git7/health-calculator-service-rs/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Rahman-git7/health-calculator-service-rs/actions/workflows/ci-cd.yml)
 ![GitHub language count](https://img.shields.io/github/languages/top/Rahman-git7/health-calculator-service-rs)
 ![Docker](https://img.shields.io/badge/docker-containerized-blue) ![Azure](https://img.shields.io/badge/Deployed%20on-Azure-blue)
-
-
-# 🧮 Health Calculator Microservice
 
 
 A simple Flask-based microservice to calculate:
